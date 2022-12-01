@@ -2,14 +2,94 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* background-color:  #1C1C1C; */
+  font-family: 'Inter', sans-serif;
+  ;
+}
+
+body {
+  background-color: #1c1c1c;
 }
 
 .App {
-  margin: auto auto;
-  width: 1296px;
-  height: 1884px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  color: #FFFFFF;
+  width: 1296px;
+  height: 1884px;
+  padding: 53px 82px 56px 65px;
+}
+
+.info--card {
+  background-color: #23252c;
+  width: 550px;
+  height: 868px;
+  background-image: url(./image.png);
+  background-size: 317px 317px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 97px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+
+.card--details {
+  background-color: #1a1b21;
+  width: 317px;
+  height: 399px;
+  position: relative;
+  top: 108px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+h1 {
+  width: 179px;
+  height: 31px;
+  font-size: 25px;
+  align-self: center;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 21px;
+}
+
+h3 {
+  height: 15px;
+  width: 179px;
+  color: #F3BF99;
+  font-size: 13px;
+  align-self: center;
+  text-align: center;
+  margin-top: 6px;
+}
+
+h5{
+  width: 228px;
+  height: 16px;
+  font-weight: 400;
+  font-size: 11px;
+  margin-top: 8px;
+  align-self: center;
+  text-align: center;
+}
+
+.card--text {
+  width: 247px;
+  height: 201px;
+  margin-top: 33px;
+  align-self: center;
+}
+
+.card--text h2 {
+  width: 243px;
+  height: 21px;
+  font-size: 16px;
+}
+
+.card--text p {
+  height: 61px;
+  font-size: 10px;
+  color: #DCDCDC;
 }
