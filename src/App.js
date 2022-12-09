@@ -4,10 +4,19 @@ import InfoCard from './Components/InfoCard';
 function App() {
   return (
     <div className="App">
-    <InfoCard />
-    <InfoCard />
-    <InfoCard />
-    <InfoCard />
+    <InfoCard 
+    button='email'
+    buttonlinked='linkedin'
+    />
+    <InfoCard 
+    button='email'
+    />
+    <InfoCard 
+    button='email'
+    buttonlinked='linkedin'/>
+    <InfoCard 
+    button='email'
+    />
     </div>
   );
 }
