@@ -1,26 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
-  ;
-}
-
-body {
-  background-color: #1c1c1c;
-}
-
-.App {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  color: #FFFFFF;
-  width: 1296px;
-  height: 1884px;
-  padding: 53px 82px 56px 65px;
-}
-
-.info--card {
+.info-card {
   background-color: #23252c;
   width: 550px;
   height: 868px;
@@ -34,7 +12,7 @@ body {
   justify-content: center;
 }
 
-.card--details {
+.card-details {
   background-color: #1a1b21;
   width: 317px;
   height: 399px;
@@ -43,6 +21,7 @@ body {
   display: flex;
   flex-direction: column;
   align-self: center;
+  padding: 21px 35px;
 }
 
 h1 {
@@ -52,7 +31,6 @@ h1 {
   align-self: center;
   font-weight: 700;
   text-align: center;
-  margin-top: 21px;
 }
 
 h3 {
@@ -65,7 +43,7 @@ h3 {
   margin-top: 6px;
 }
 
-h5{
+h5 {
   width: 228px;
   height: 16px;
   font-weight: 400;
@@ -75,21 +53,67 @@ h5{
   text-align: center;
 }
 
-.card--text {
+.card-text {
   width: 247px;
   height: 201px;
   margin-top: 33px;
   align-self: center;
 }
 
-.card--text h2 {
+.card-text h2 {
   width: 243px;
   height: 21px;
   font-size: 16px;
 }
 
-.card--text p {
+.card-text p {
   height: 61px;
   font-size: 10px;
   color: #DCDCDC;
 }
+
+.contact-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+}
+
+.email-btn {
+  width: 115px;
+  height: 34px;
+  background: #FFFFFF;
+  border: 1px solid #D1D5DB;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.email-btn:last-of-type{
+  width: 100%;
+}
+
+.btn-icon {
+  width: 14px;
+  height: 13px;
+}
+
+.btn-text{
+width: 36px;
+height: 16px;
+margin-left: 8px;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+}
+
+.linkedIn-btn {
+  width: 115px;
+  height: 34px;
+  background: #5093E2;
+  color: #FFFFFF;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  padding: 9px 13px 9px 11px;
+  border: 1px solid #5093E2;
+}
+

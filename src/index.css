@@ -1,1 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
 
+body {
+    background-color: #1c1c1c;
+}
+
+.App {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    color: #FFFFFF;
+    gap: 49px;
+    padding: 53px 82px 56px 65px;
+}
