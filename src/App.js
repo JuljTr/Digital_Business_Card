@@ -30,25 +30,6 @@ function App() {
         linked={linked}
         github={github}
       />
-      <InfoCard
-        img={emailIcon}
-        button='Email'
-        secondimg={linkedIcon}
-        buttonlinked='LinkedIn'
-        twitter={twitter}
-        facebook={facebook}
-        instagram={instagram}
-        github={github}
-      />
-      <InfoCard
-        img={emailIcon}
-        button='Email'
-        twitter={twitter}
-        facebook={facebook}
-        instagram={instagram}
-        linked={linked}
-        github={github}
-      />
     </div>
   );
 }

@@ -1,7 +1,5 @@
 .info-card {
   background-color: #23252c;
-  width: 550px;
-  height: 868px;
   background-image: url(./image.png);
   background-size: 317px 317px;
   background-repeat: no-repeat;
@@ -9,14 +7,12 @@
   background-position-y: 44px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  padding: 20px 30px;
 }
 
 .card-details {
   background-color: #1a1b21;
-  width: 317px;
-  height: 399px;
-  margin-top: 317px;
+  margin-top: 310px;
   display: flex;
   flex-direction: column;
   align-self: center;
@@ -131,4 +127,18 @@ h5 {
   width: 25px;
   height: 25px;
   margin: 12px;
+}
+
+@media only screen and (max-width: 770px) {
+  .info-card{
+    height: 100vh;
+  }
+
+  .card-details{
+    height: 43vh;
+  }
+
+  .card-text{
+    margin-top: 13px;
+  }
 }
