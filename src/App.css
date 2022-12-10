@@ -6,9 +6,9 @@
   background-size: 317px 317px;
   background-repeat: no-repeat;
   background-position-x: center;
-  background-position-y: 97px;
+  background-position-y: 44px;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -16,8 +16,7 @@
   background-color: #1a1b21;
   width: 317px;
   height: 399px;
-  position: relative;
-  top: 108px;
+  margin-top: 317px;
   display: flex;
   flex-direction: column;
   align-self: center;
@@ -88,7 +87,7 @@ h5 {
   border-radius: 6px;
 }
 
-.email-btn:last-of-type{
+.email-btn:last-of-type {
   width: 100%;
 }
 
@@ -97,13 +96,13 @@ h5 {
   height: 13px;
 }
 
-.btn-text{
-width: 36px;
-height: 16px;
-margin-left: 8px;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
+.btn-text {
+  width: 36px;
+  height: 16px;
+  margin-left: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 .linkedIn-btn {
@@ -117,3 +116,19 @@ line-height: 16px;
   border: 1px solid #5093E2;
 }
 
+.card-media {
+  width: 317px;
+  height: 64px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.media-icon {
+  width: 25px;
+  height: 25px;
+  margin: 12px;
+}

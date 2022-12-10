@@ -25,6 +25,13 @@ export default function InfoCard(props) {
                         Internet fanatic. Bacon buff. Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.</p>
                 </div>
             </div>
+            <div className='card-media'>
+                    <span><img alt='social media' src={props.twitter} className='media-icon'/></span>
+                    <span><img alt='social media' src={props.facebook} className='media-icon'/></span>
+                    <span><img alt='social media' src={props.instagram} className='media-icon'/></span>
+                    {props.linked &&<span><img alt='social media' src={props.linked} className='media-icon'/></span>}
+                    <span><img alt='social media' src={props.github} className='media-icon'/></span>
+                </div>
         </div>
     )
 }
