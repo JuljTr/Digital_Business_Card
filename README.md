@@ -1,7 +1,8 @@
 # Digital_Business_Card
 
 ## Project Overview
-
+Built a React Info Site solo project part of the curriculum in React Course from Scrimba. 
+The course provided a Figma template in order to create an identic digital business card.
 
 ## Recources Used
   - [Google search](https://www.google.com/)
